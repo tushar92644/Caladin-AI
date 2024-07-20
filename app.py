@@ -65,11 +65,11 @@ def get_base64(file_path):
 #     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Example usage to set the header background
-def add_logo(file_path, width='150px', height='50px'):
+def add_logo(file_path, width='150px', height='50px',left='30px',top='20px'):
     bin_str = get_base64(file_path)
     logo_html = f"""
     <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
-    <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height};"/>
+    <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height}; margin-left :{left}; margin-top:{top}"/>
     </header>
     """
     st.markdown(logo_html, unsafe_allow_html=True)
