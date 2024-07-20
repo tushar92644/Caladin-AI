@@ -182,12 +182,12 @@ def main():
                 # justify-content: left;
                 height:100px;
                 margin-top:10px;
-                margin-left:50%;
+                margin-left:21%;
             }
             </div>
             </style>""", unsafe_allow_html=True)
             button =f"""
-                <div class="row-widget stButton" data-testid="stButton" style="width: 100%; margin-left:21%;"><button kind="secondary" data-testid="baseButton-secondary" class="st-emotion-cache-15hul6a ef3psqc12"><div data-testid="stMarkdownContainer" class="st-emotion-cache-fm8pe0 e1nzilvr4"><p>Analyse</p></div></button></div>
+                <div class="row-widget stButton" data-testid="stButton" style="width: 100%;"><button kind="secondary" data-testid="baseButton-secondary" class="st-emotion-cache-15hul6a ef3psqc12"><div data-testid="stMarkdownContainer" class="st-emotion-cache-fm8pe0 e1nzilvr4"><p>Analyse</p></div></button></div>
                 """
             st.markdown(button,unsafe_allow_html=True)
             spinner = st.spinner('Analysing...')
