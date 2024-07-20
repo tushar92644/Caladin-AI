@@ -79,7 +79,7 @@ def main():
     add_logo('./Caladin_Ai__1_-removebg-preview.png')
     header = f"""
     <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
-    <img src="/Caladin_Ai__1_-removebg-preview.png" alt="Girl in a jacket" width="150" height="50">
+    <img src="https://media.istockphoto.com/id/920877788/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=ZouPkmrckgky1V8zZ6l6_lHzD1ilkE0dQwEGo70r17Y=" alt="Girl in a jacket" width="150" height="50">
     </header>
     """
     st.markdown(header,unsafe_allow_html=True)
