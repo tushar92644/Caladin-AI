@@ -123,7 +123,6 @@ def main():
         .css-5uatcg {
             background-color: rgb(5, 110, 207);
             padding: 10px;
-            margin-left: 10px;
         } 
         .css-5uatcg:hover {
             color: #000;
@@ -152,16 +151,6 @@ def main():
         .css-1avcm0n{
             <img src="/Caladin Ai (1).png" alt="logo"/>
         }
-        # .footer {
-        #     padding: 2px;
-        #     background-color: #f9f9f9;
-        #     border-radius: 10px;
-        #     text-align: center;
-        #     margin-top: 100px;
-        #     font-size: 0.8em;
-        #     color: #888;
-        # }
-        # header CSS
         .css-1avcm0n {
             background: none;
         }
