@@ -82,7 +82,7 @@ def main():
     st.markdown("<div class='main-content'>", unsafe_allow_html=True)
     
     st.markdown("<h4 style='text-align: center;margin-left:10%;margin-right:10%;margin-top:25px;'>Welcome to the Risk of Bias Analyzer! Using the power of <span style='color:rgb(5 110 207);'> AI </span>, we provide a detailed risk of bias analysis for each domain of your research paper. Simply upload your PDF and click 'Analyse' to get started.</h4>", unsafe_allow_html=True)
-
+    st.markdown("<div class='stHeader'><img src= './Caladin_Ai__1_-removebg-preview.png' style='width: 150px; height: 50px;'/></div>", unsafe_allow_html=True)
     uploaded_file = st.file_uploader("")
 
     css = '''
