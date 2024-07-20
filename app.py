@@ -77,7 +77,18 @@ def add_logo(file_path, width='150px', height='50px'):
 def main():
     st.set_page_config(layout="wide")
     add_logo('./Caladin_Ai__1_-removebg-preview.png')
-    
+    header = f"""
+    <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
+    <img src="./Caladin_Ai__1_-removebg-preview.png" alt="Girl in a jacket" width="150" height="50">
+    <div data-testid="stToolbar" class="st-emotion-cache-15ecox0 ezrtsby0">
+    <div data-testid="stToolbarActions" class="st-emotion-cache-1p1m4ay e3g6aar0">
+    <div class="stActionButton" data-testid="stActionButton"><button kind="header" data-testid="baseButton-header" class="st-emotion-cache-mnu3yk ef3psqc5">
+    <div class="st-emotion-cache-1wbqy5l e3g6aar2"><span data-testid="stActionButtonLabel">Share</span>
+    </div></button></div>
+    <div class="stActionButton" data-testid="stActionButton">
+    <button kind="header" data-testid="baseButton-header" class="st-emotion-cache-mnu3yk ef3psqc5"><div class="st-emotion-cache-1wbqy5l e3g6aar2"><div data-testid="stActionButtonIcon" class="st-emotion-cache-kd13nv e3g6aar1"></div></div></button></div><div class="stActionButton" data-testid="stActionButton"><button kind="header" data-testid="baseButton-header" class="st-emotion-cache-mnu3yk ef3psqc5"><div class="st-emotion-cache-1wbqy5l e3g6aar2"><div data-testid="stActionButtonIcon" class="st-emotion-cache-q16mip e3g6aar1"></div></div></button></div></div><span id="MainMenu" data-testid="stMainMenu" aria-haspopup="true" aria-expanded="false" class="st-emotion-cache-czk5ss e16jpq800"><button kind="headerNoPadding" data-testid="baseButton-headerNoPadding" class="st-emotion-cache-yfhhig ef3psqc4"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" color="inherit" class="eyeqlp52 st-emotion-cache-1pbsqtx ex0cdmw0"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg></button></span></div></header>
+    """
+    st.markdown(header,unsafe_allow_html=True)
     # st.markdown("<h1 style='text-align: center;padding-top:-100px;'>Risk of Bias Analyser</h1>", unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center;padding-bottom:20px;'>Get Detailed Risk of Bias <span style='color:rgb(5 110 207);'> Analysis </span></h1>", unsafe_allow_html=True)
     st.markdown("<div class='main-content'>", unsafe_allow_html=True)
