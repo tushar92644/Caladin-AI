@@ -135,7 +135,7 @@ def main():
             background-color: green;
             
         }
-        .css-fqsvsg {
+        .st-emotion-cache-fqsvsg {
             margin-left: 20%;
             margin-right: 21%;
         }
