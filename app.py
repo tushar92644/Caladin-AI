@@ -65,7 +65,7 @@ def get_base64(file_path):
 #     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Example usage to set the header background
-def add_logo(file_path, width='210px', height='70px'):
+def add_logo(file_path, width='150px', height='50px'):
     bin_str = get_base64(file_path)
     logo_html = f"""
     <div>
@@ -138,7 +138,7 @@ def main():
             margin-left: 20%;
             margin-right: 21%;
         }
-        .st-emotion-cache-1unw9uo{
+        .element-container st-emotion-cache-6cfscp{
             margin-left: 21%;
         }
         .st-emotion-cache-1p1m4ay{
