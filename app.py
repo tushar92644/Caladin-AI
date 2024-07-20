@@ -68,9 +68,6 @@ def get_base64(file_path):
 def add_logo(file_path, width='150px', height='50px'):
     bin_str = get_base64(file_path)
     logo_html = f"""
-    # <div>
-    #     <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height};"/>
-    # </div>
     <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
     <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height};"/>
     </header>
