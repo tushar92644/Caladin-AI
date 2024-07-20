@@ -186,10 +186,10 @@ def main():
             }
             </div>
             </style>""", unsafe_allow_html=True)
-            button =f"""
+            buttonx =f"""
                 <div class="row-widget stButton" data-testid="stButton" style="width: 100%;"></div>
                 """
-            st.markdown(button,unsafe_allow_html=True)
+            st.markdown(buttonx,unsafe_allow_html=True)
             button=st.button('Analyse')
             spinner = st.spinner('Analysing...')
             if button:
