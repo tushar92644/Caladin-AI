@@ -88,7 +88,10 @@ def main():
     st.markdown("<div class='main-content'>", unsafe_allow_html=True)
     
     st.markdown("<h4 style='text-align: center;margin-left:10%;margin-right:10%;margin-top:25px;'>Welcome to the Risk of Bias Analyzer! Using the power of <span style='color:rgb(5 110 207);'> AI </span>, we provide a detailed risk of bias analysis for each domain of your research paper. Simply upload your PDF and click 'Analyse' to get started.</h4>", unsafe_allow_html=True)
-    
+    Button =f"""
+    <div class="row-widget stButton" data-testid="stButton" style="width: 602px; margin-left:21%;"><button kind="secondary" data-testid="baseButton-secondary" class="st-emotion-cache-15hul6a ef3psqc12"><div data-testid="stMarkdownContainer" class="st-emotion-cache-fm8pe0 e1nzilvr4"><p>Analyse</p></div></button></div>
+    """
+    st.markdown(Button,unsafe_allow_html=True)
     uploaded_file = st.file_uploader("")
 
     css = '''
