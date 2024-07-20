@@ -186,12 +186,13 @@ def main():
             }
             </div>
             </style>""", unsafe_allow_html=True)
-            st.button =f"""
-                <div class="row-widget stButton" data-testid="stButton" style="width: 100%; border-radius"><button kind="secondary" data-testid="baseButton-secondary" class="st-emotion-cache-15hul6a ef3psqc12"><div data-testid="stMarkdownContainer" class="st-emotion-cache-fm8pe0 e1nzilvr4"><p>Analyse</p></div></button></div>
+            button =f"""
+                <div class="row-widget stButton" data-testid="stButton" style="width: 100%;"></div>
                 """
-            st.markdown(st.button,unsafe_allow_html=True)
+            st.markdown(button,unsafe_allow_html=True)
+            button=st.button('Analyse')
             spinner = st.spinner('Analysing...')
-            if st.button:
+            if button:
                 with spinner:
                     generation_config = {
                         "candidate_count": 1,
