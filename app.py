@@ -177,6 +177,9 @@ def main():
             prompt_text = construct_prompt(pdf_text)
             st.markdown("""
             <style>
+            div.stButton{
+                margin-left:21%;
+            }
             div.stSpinner > div {
                 # text-align:left;
                 # align-items: left;
