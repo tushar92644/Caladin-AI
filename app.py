@@ -178,7 +178,7 @@ def main():
             st.markdown("""
             <style>
             div.stButton{
-                margin-left:21%;
+                margin-left:0%;
             }
             div.stSpinner > div {
                 # text-align:left;
