@@ -138,7 +138,7 @@ def main():
             margin-left: 20%;
             margin-right: 21%;
         }
-        .element-container st-emotion-cache-6cfscp{
+        .element-container{
             margin-left: 21%;
         }
         .st-emotion-cache-1p1m4ay{
