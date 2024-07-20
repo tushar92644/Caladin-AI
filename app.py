@@ -138,6 +138,9 @@ def main():
             margin-left: 20%;
             margin-right: 21%;
         }
+        .st-emotion-cache-1p1m4ay{
+            display:None;
+        }
         .css-5uatcg {
             margin-left: 21%;
         }
