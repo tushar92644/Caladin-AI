@@ -68,21 +68,24 @@ def get_base64(file_path):
 def add_logo(file_path, width='150px', height='50px'):
     bin_str = get_base64(file_path)
     logo_html = f"""
-    <div>
-        <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height};"/>
-    </div>
+    # <div>
+    #     <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height};"/>
+    # </div>
+    <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
+    <img src="data:image/png;base64,{bin_str}" style="width: {width}; height: {height};"/>
+    </header>
     """
     st.markdown(logo_html, unsafe_allow_html=True)
 # Define the Streamlit app
 def main():
     st.set_page_config(layout="wide")
     add_logo('./Caladin_Ai__1_-removebg-preview.png')
-    header = f"""
-    <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
-    <img src="https://media.istockphoto.com/id/920877788/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=ZouPkmrckgky1V8zZ6l6_lHzD1ilkE0dQwEGo70r17Y=" alt="Girl in a jacket" width="150" height="50">
-    </header>
-    """
-    st.markdown(header,unsafe_allow_html=True)
+    # header = f"""
+    # <header tabindex="-1" data-testid="stHeader" class="st-emotion-cache-h4xjwg ezrtsby2"><div data-testid="stDecoration" id="stDecoration" class="st-emotion-cache-1dp5vir ezrtsby1"></div>
+    # <img src="https://media.istockphoto.com/id/920877788/photo/self-drive-autonomous-vehicle.jpg?s=612x612&w=0&k=20&c=ZouPkmrckgky1V8zZ6l6_lHzD1ilkE0dQwEGo70r17Y=" alt="Girl in a jacket" width="150" height="50">
+    # </header>
+    # """
+    # st.markdown(header,unsafe_allow_html=True)
     # st.markdown("<h1 style='text-align: center;padding-top:-100px;'>Risk of Bias Analyser</h1>", unsafe_allow_html=True)
     st.markdown("<h1 style='text-align: center;padding-bottom:20px;'>Get Detailed Risk of Bias <span style='color:rgb(5 110 207);'> Analysis </span></h1>", unsafe_allow_html=True)
     st.markdown("<div class='main-content'>", unsafe_allow_html=True)
