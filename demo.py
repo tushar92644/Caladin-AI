@@ -145,7 +145,7 @@ def main():
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             text-align: justify;
         }
-        .row-widget stButton{
+        .st-emotion-cache-15hul6a{
             margin-left:21%;
         }
         .css-1avcm0n{
