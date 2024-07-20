@@ -150,8 +150,9 @@ def main():
             text-align: justify;
         }
         .st-emotion-cache-15hul6a{
-            margin-left:21%;
+            margin-left:50%;
         }
+        
         .css-1avcm0n{
             <img src="/Caladin Ai (1).png" alt="logo"/>
         }
